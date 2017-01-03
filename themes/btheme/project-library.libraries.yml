@@ -1,0 +1,9 @@
+project:
+  version: "1.0.x"
+  css:
+    theme:
+      style/btheme_css/style.css: {}
+      style/btheme_css/rtl.css: {}
+      style/btheme_css/assets.css: {}
+      style/btheme_css/dark.css: {}
+      style/btheme_css/skins/default.css: {}

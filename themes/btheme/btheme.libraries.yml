@@ -1,0 +1,29 @@
+global-styling:
+  version: "1.0.x"
+  css:
+    theme:
+      style/btheme_css/style.css: {}
+      style/btheme_css/assets.css: {}
+      style/btheme_css/dark.css: {}
+      style/btheme_css/light.css: {}
+      style/btheme_css/skins/default.css: {}
+      style/revolution/css/navigation.css: {}
+      style/css/btheme.css: {}
+  js:
+    js/assets.min.js: {}
+    js/script.js: {}
+    js/btheme.js: {}
+    js/html5.js: {}
+    style/revolution/js/jquery.themepunch.revolution.min.js: {}
+    style/revolution/js/extensions/revolution.extension.navigation.min.js: {}
+  layout: 
+    #style/css/layout/some-layout-file.css: {}
+  component:
+      #style/css/components/some-component.css: {}
+  dependencies:
+    - core/jquery
+project:
+  version: "1.0"
+  css:
+    theme:
+      

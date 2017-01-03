@@ -1,0 +1,174 @@
+﻿<!doctype html>  
+<!--[if IE 6 ]>
+<html lang="en-us" class="ie6" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"> <![endif]-->
+<!--[if IE 7 ]>
+<html lang="en-us" class="ie7" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-us" class="ie8" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>SuperFine - Template User Guide</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="IT-RAYS">
+	<meta name="copyright" content="IT-RAYS">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-02-07T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/logo.png);visibility:hidden}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  border-color: #006673 #006673 #bfbfbf;
+		color: #FFFFFF !important;
+		background-image: linear-gradient(top, #008C9E, #006673) !important;
+	}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #008C9E #008C9E #bfbfbf !important;
+		  background-color: #006673 !important;
+		}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;font-size:13px;font-weight:normal}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-SuperFine">
+<div id="documenter_content">
+	<section id="documenter_cover">
+		<h1 style="font-weight: 900;font-size: 34px;color: #089;text-transform:uppercase">SuperFine</h1>
+		<h2 style="font-size: 15px;color: #B0B0B0;font-weight: 100;">Template Change Log</h2>
+		<hr>			
+	</section>
+	<section id="getting_statred">
+		<div class="page-header"><h3>Version 1.1</h3><hr class="notop"></div>
+		<ul class="list">
+			<li><strong>New: </strong>Added Video background in section in index-corporate-1.html.</li>
+			<li><strong>Update:</strong> assets.js to a new uncompressed version.</li>
+			<li><strong>Fix: </strong>price square shape issue in pricing tables style 4 and 5.</li>
+			<li><strong>Fix:</strong> full screen slider is now boxed in boxed layout.
+			<strong>style.css in line 10693.</strong></li>
+			<li><strong>Fix:</strong> IE Revolution Slider horizontal scroll issue is now removed.</li>
+			<li><strong>Enhancement: </strong>Page transitions.
+				<ul>
+					<li><strong>Remove</strong> preloader tag from All HTML pages <br>
+<pre class="prettyprint lang-css linenums">
+&lt;!-- site preloader start --&gt;
+&lt;div class=&quot;page-loader&quot;&gt;&lt;/div&gt;
+&lt;!-- site preloader end --&gt;
+</pre>					
+					</li>
+					<li>add class<strong> animsition</strong> to &lt;div class=&quot;pageWrapper&quot;&gt; 
+					to be:<br>
+<pre class="prettyprint lang-css linenums">
+&lt;div class=&quot;pageWrapper animsition&quot;&gt;</pre>					
+					</li>
+					<li>in <strong>script.js</strong> find and remove:<br>
+<pre class="prettyprint lang-css linenums">
+if($page_transition == &#39;1&#39;){
+$(&#39;.pageWrapper&#39;).addClass(&#39;animsition&#39;);
+}
+
+
+/* ================ Page Preloader wrap inner. ================ */
+$(&#39;.page-loader&#39;).html(&#39;&lt;div class=&quot;inner-l&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;&#39;);</pre>					
+					</li>
+					<li>Also in <strong>script.js</strong> find and remove:<br>
+<pre class="prettyprint lang-css linenums">
+/* ================ Preloader. ================ */
+$(&quot;.page-loader&quot;).delay(500).fadeOut(400);
+$(&#39;body&#39;).delay(400).removeAttr(&quot;style&quot;);
+
+/* ================ Preloader. ================ */
+$(&quot;.page-loader&quot;).delay(500).fadeOut(400);
+$(&#39;body&#39;).delay(400).removeAttr(&quot;style&quot;);
+</pre>					
+					</li>
+					<li>also in <strong>script.js</strong> find and remove:<br>
+<pre class="prettyprint lang-css linenums">
+if($(&#39;.animsition&#39;).length){
+	$(&quot;.animsition&quot;).animsition({
+		inClass: &#39;fade-in&#39;,
+		outClass: &#39;fade-out&#39;,
+		inDuration: 2000,
+		outDuration: 800,
+		linkElement: &#39;.animsition-link&#39;,
+		loading: true,
+		loadingParentElement: &#39;body&#39;, //animsition wrapper element
+		loadingClass: &#39;animsition-loading&#39;,
+		loadingInner: &#39;&#39;, // e.g &#39;&lt;img src=&quot;loading.svg&quot; /&gt;&#39;
+		timeout: false,
+		timeoutCountdown: 5000,
+		onLoadEvent: true,
+		browser: [ &#39;animation-duration&#39;, &#39;-webkit-animation-duration&#39;],
+		overlay : false,
+		overlayClass : &#39;animsition-overlay-slide&#39;,
+		overlayParentElement : &#39;body&#39;,
+		transition: function(url){ window.location.href = url; }
+	});
+}</pre>					
+					</li>
+					<li>Also in <strong>script.js</strong> add the following 
+					before /* =============== Window.load ================== */:<br>
+<pre class="prettyprint lang-css linenums">
+if($page_transition == &#39;1&#39;){
+	if($(&#39;.animsition&#39;).length){
+		$(&quot;.animsition&quot;).animsition({
+			inClass : &#39;fade-in&#39;,
+			outClass : &#39;fade-out&#39;,
+			inDuration : 2000,
+			outDuration : 800,
+			linkElement : &#39;.top-nav ul li a:not([target=&quot;_blank&quot;]):not([href^=#])&#39;,
+			loading : true,
+			loadingParentElement : &#39;body&#39;,
+			loadingClass : &#39;page-loader&#39;,
+			loadingInner : &#39;&lt;div class=&quot;inner-l&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;&#39;,
+			overlay : false
+		});
+	}
+}else{
+	$(&#39;.pageWrapper&#39;).removeClass(&#39;animsition&#39;);
+}
+
+</pre>					
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+	
+
+	
+	</div>
+</body>
+</html>
