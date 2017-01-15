@@ -68,7 +68,7 @@ body {
 	font-family:"Raleway",sans-serif;
 	line-height:1.5;
 	-webkit-font-smoothing: antialiased;
-	font-size:13px
+	font-size:15px
 }
 p {
 	margin: 0 0 20px 0;
@@ -11236,4 +11236,19 @@ html.border5px .full-heading:before{
 }
 html.square .pricing-tbl.style-4 .plan-head:before{
 	border-radius:0 !important
+}
+
+/*Custom btheme styles */
+
+.margin-auto {
+	margin: auto;
+	text-align: center;
+}
+
+.font-16 {
+	font-size: 16px;
+}
+
+.fa-5 {
+	font-size: 70px !important;
 }
