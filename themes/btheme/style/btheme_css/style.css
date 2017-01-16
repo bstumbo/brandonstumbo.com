@@ -136,7 +136,7 @@ iframe {
 	font-family:inherit !important
 }
 .section {
-	padding: 100px 0;
+	padding: 25px 0;
 	position:relative;
 	overflow:hidden;
 	clear:both
@@ -3615,9 +3615,9 @@ a.lg-icon{
 	line-height: 60px !important;
 }
 a.xl-icon{
-	width: 80px !important;
-	height: 80px !important;
-	line-height: 80px !important;
+	width: 100px !important;
+	height: 100px !important;
+	line-height: 100px !important;
 }
 a.lg-icon:before,a.lg-icon:after{
 	font-size:23px !important;
@@ -4630,6 +4630,7 @@ a.xl-icon:before,a.xl-icon:after{
 h2.cta_heading{
 	font-size:27px;
 	margin-bottom: 0;
+	margin-top: 15%;
 	line-height: 1;
 }
 h4.cta_heading{
@@ -9380,9 +9381,9 @@ span.lbl{
 	font-size:20px !important
 }
 .social-list li.xl-icon a{
-	width:80px;
-	height:80px;
-	line-height:80px;
+	width:100px;
+	height:100px;
+	line-height:100px;
 	font-size:30px !important
 }
 .social-list li.xl-icon a:before,.social-list li.xl-icon a:after{
@@ -11250,5 +11251,27 @@ html.square .pricing-tbl.style-4 .plan-head:before{
 }
 
 .fa-5 {
-	font-size: 70px !important;
+	font-size: 100px !important;
+	vertial-align: middle;
+	padding-left: 38%;
+	padding-top: 10px;
+}
+
+div.jumbotron-icon {
+	width: 100%;
+}
+
+div.social-list {
+    float: left;
+	width: 33.33%;
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+div.social-list:hover {
+	background-color: #2d4851;
+}
+
+.center {
+	text-align: center;
 }
