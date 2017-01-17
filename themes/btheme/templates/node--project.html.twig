@@ -1,7 +1,7 @@
 {{ attach_library('btheme/project') }}
 <article{{ attributes }}>
 <div {{ content_attributes }}>  
-		    <div id="contentWrapper">
+	<div id="contentWrapper">
 		    	<div class="pageContent">
 		    	
 					<div class="section parallax portfolio single-pro-img" style="background-image: url('{{ file_url(content.field_project_header['#items'].entity.uri.value) }}');" data-stellar-background-ratio="0.65" data-overlay="rgba(0,0,0,.7)">
@@ -14,6 +14,10 @@
 							</div>
 						</div>
 					</div>
+					<h2 class="center">Used In Project:</h2>
+					<div class="clients horizontal-slider" data-slides_count="6" data-scroll_amount="6" data-slider-speed="300" data-slider-infinite="1" data-slider-dots="0" data-slider-arrows="1">
+								{{ content.field_skill_tags }}
+							</div>
 									
 					<div class="section">
 						<div class="container">

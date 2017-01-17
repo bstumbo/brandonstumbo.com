@@ -278,9 +278,9 @@ body {
   /* line 350, ../../scss/layout/front-layout.scss */
   .footer-layout {
     display: block;
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
-    *width: 99.89583%;
+    *width: 100%;
     *zoom: 1;
     max-width: 100%; }
     /* line 88, ../../scss/layout/front-layout.scss */
@@ -295,12 +295,12 @@ body {
       display: block;
       position: relative;
       clear: none;
-      width: 97.91667%;
-      margin-right: 1.04167%;
-      margin-left: 1.04167%;
-      *width: 97.8125%;
-      *margin-right: 0.9375%;
-      *margin-left: 0.9375%;
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      *width: 100%;
+      *margin-right: 0;
+      *margin-left: 0;
       float: left;
       margin-bottom: 0; } }
 @media all and (min-width: 768px) and (max-width: 1023px) {
@@ -569,11 +569,11 @@ body {
   /* line 485, ../../scss/layout/front-layout.scss */
   .footer-layout {
     display: block;
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
-    *width: 99.89583%;
+    *width: 100%;
     *zoom: 1;
-    max-width: 100%; }
+    }
     /* line 88, ../../scss/layout/front-layout.scss */
     .footer-layout:before, .footer-layout:after {
       content: "";
@@ -586,21 +586,21 @@ body {
       display: block;
       position: relative;
       clear: none;
-      width: 97.91667%;
-      margin-right: 1.04167%;
-      margin-left: 1.04167%;
-      *width: 97.8125%;
-      *margin-right: 0.9375%;
-      *margin-left: 0.9375%;
+      width: 100%;
+      margin-right:0;
+      margin-left: 0;
+      *width: 100%;
+      *margin-right: 0;
+      *margin-left: 0;
       float: left;
       margin-bottom: 0; } }
 @media all and (min-width: 1024px) and (max-width: 1219px) {
   /* line 500, ../../scss/layout/front-layout.scss */
   .header-layout {
     display: block;
-    margin: 0 auto;
+    margin: 0 ;
     width: 100%;
-    *width: 99.89583%;
+    *width: 100%;
     *zoom: 1;
     max-width: 100%; }
     /* line 88, ../../scss/layout/front-layout.scss */
@@ -944,11 +944,11 @@ body {
   /* line 657, ../../scss/layout/front-layout.scss */
   .footer-layout {
     display: block;
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
-    *width: 99.89583%;
+    *width: 100%;
     *zoom: 1;
-    max-width: 1100px; }
+    }
     /* line 88, ../../scss/layout/front-layout.scss */
     .footer-layout:before, .footer-layout:after {
       content: "";
@@ -961,12 +961,12 @@ body {
       display: block;
       position: relative;
       clear: none;
-      width: 97.91667%;
-      margin-right: 1.04167%;
-      margin-left: 1.04167%;
-      *width: 97.8125%;
-      *margin-right: 0.9375%;
-      *margin-left: 0.9375%;
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      *width: 100%;
+      *margin-right: 0;
+      *margin-left: 0;
       float: left;
       margin-bottom: 0; } }
 @media all and (min-width: 1220px) {
@@ -1319,11 +1319,11 @@ body {
   /* line 829, ../../scss/layout/front-layout.scss */
   .footer-layout {
     display: block;
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
-    *width: 99.89583%;
+    *width:100%;
     *zoom: 1;
-    max-width: 1400px; }
+   }
     /* line 88, ../../scss/layout/front-layout.scss */
     .footer-layout:before, .footer-layout:after {
       content: "";
@@ -1336,11 +1336,11 @@ body {
       display: block;
       position: relative;
       clear: none;
-      width: 97.91667%;
-      margin-right: 1.04167%;
-      margin-left: 1.04167%;
-      *width: 97.8125%;
-      *margin-right: 0.9375%;
-      *margin-left: 0.9375%;
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      *width: 100%;
+      *margin-right: 0;
+      *margin-left: 0;
       float: left;
       margin-bottom: 0; } }
