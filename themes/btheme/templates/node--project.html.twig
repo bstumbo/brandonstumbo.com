@@ -9,18 +9,21 @@
 							<div class="row">
 								<div class="t-center margin-top-100">
 									<h1 class="bolder uppercase font-40 white">{{ label }}</h1>
-									<p class="white font-15">{{ node.body.summary }}</p>
+									<p class="white font-30">{{ node.body.summary }}</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<h2 class="center">Used In Project:</h2>
-					<div class="clients horizontal-slider" data-slides_count="6" data-scroll_amount="6" data-slider-speed="300" data-slider-infinite="1" data-slider-dots="0" data-slider-arrows="1">
-								{{ content.field_skill_tags }}
-							</div>
-									
 					<div class="section">
 						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<h2 class="center">Used In Project:</h2>
+										<div class="clients horizontal-slider" data-slides_count="6" data-scroll_amount="6" data-slider-speed="300" data-slider-infinite="1" data-slider-dots="0" data-slider-arrows="1">
+											{{ content.field_skill_tags }}
+										</div>
+								</div>
+							</div>
 							<div class="row">
 								<div class="col-md-4">
 									<div class="heading">
@@ -28,13 +31,18 @@
 									</div>
 									<ul class="list">
 										<li>
-											<i class="fa fa-tag"></i> <span class="bold main-color">Category:</span> <a href="#">Computers</a>, <a href="#">Just food</a>
+											<span class="bold main-color">Published:</span> {{ date }}
 										</li>
 										<li>
-											<i class="fa fa-calendar"></i> <span class="bold main-color">Date Added:</span> Jan 15, 2014
+											<span class="bold main-color">Project Type:</span>
+											{{ content.field_project_type }}
 										</li>
-										<li><i class="fa fa-check"></i> <span class="bold main-color">Customer:</span> ThemeForest.</li>
 									</ul>
+									{% if content.field_git %}
+									<div>
+										<a class="btn btn-md btn-rounded btn-green" target="_blank" href="{{ content.field_git|field_value }}"><i class="fa fa-github"></i>View on GitHub</a>
+									</div>
+								    {% endif %}
 								</div>
 								<div class="col-md-8">
 									<div class="heading">

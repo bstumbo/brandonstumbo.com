@@ -43,7 +43,7 @@
     {% endif %}
     {% for item in items %}
       {%
-        set item_classes = [
+        set item_classes = [                                  
           item.is_expanded ? 'hasChildren',
           item.is_collapsed ? 'hasChildren',
         ]
