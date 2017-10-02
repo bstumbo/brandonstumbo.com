@@ -136,11 +136,24 @@ iframe {
 	font-family:inherit !important
 }
 .section {
+	padding: 100px 0;
+	position:relative;
+	overflow:hidden;
+	clear:both
+}
+.section-10 {
 	padding: 25px 0;
 	position:relative;
 	overflow:hidden;
 	clear:both
 }
+
+.section-10:after{
+	display:table;
+	content:"";
+	clear:both;
+}
+
 .section:after{
 	display:table;
 	content:"";
@@ -1993,7 +2006,7 @@ li.mega-menu .inner-mega {
   4. PAGE TITLES.
 ============================================================================= */
 .page-title.title-1,.page-title.title-2,.page-title.title-3,.page-title.title-5 {
-	background: url('../images/page-titles/title-light.jpg') no-repeat 50% 0;
+	background: url('themes/btheme/images/page-titles/light_background_code_lighter.jpg') no-repeat 50% 0;
 }
 .page-title > .container{
 	position:relative;
@@ -2099,8 +2112,8 @@ li.mega-menu .inner-mega {
 	border-bottom-style:solid;
 	border-bottom-width:3px;
 	clear:both;
+	background: #333;
 	font-size:25px;
-	border-radius: 2em;
 	padding: 10px 25px;
 }
 .page-title.title-5 .breadcrumbs{
@@ -4630,7 +4643,7 @@ a.xl-icon:before,a.xl-icon:after{
 h2.cta_heading{
 	font-size:27px;
 	margin-bottom: 0;
-	margin-top: 15%;
+	margin-top: 8%;
 	line-height: 1;
 }
 h4.cta_heading{
@@ -7085,7 +7098,7 @@ h4.cta_heading{
 	right: 15px;
 	top: 30%;
 	padding: 20px;
-	background-color: rgba(255,255,255,.2);
+	background-color: rgba(0,0,0,.6);
 }
 .my-info li{
 	color:#bbb;

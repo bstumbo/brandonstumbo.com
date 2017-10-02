@@ -1,19 +1,18 @@
-<div class="section">
-	<div class="container">
+<div class="section-10">
+	<div class="">
 {% if title %}
-  <h3>{{ title }}</h3>
+  <h3 class="head-4 uppercase font-30">{{ title }}</h3>
 {% endif %}
-<div class="portfolio p-3-cols simple" id="container">
+<div class="portfolio p-style2 horizontal-slider lg-slider" data-slides_count="3" data-scroll_amount="3" data-slider-speed="300" data-slider-infinite="1" data-slider-dots="0">
 {% for row in rows %}
-  {%
-    set row_classes = [
-      'portfolio-item'
-    ]
-  %}
-		<div{{ row.attributes.addClass(row_classes) }}>
+ 
+		<div{{ row.attributes }}>
 			{{ row.content }}
 			</div>
 	{% endfor %}
-		
 	</div>
 </div>
+	
+	
+					
+				

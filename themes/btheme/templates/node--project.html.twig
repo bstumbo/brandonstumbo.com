@@ -18,7 +18,8 @@
 						<div class="container">
 							<div class="row">
 								<div class="col-md-12">
-									<h2 class="center">Used In Project:</h2>
+									<h2 class="center">Used in this Project</h2>
+									
 										<div class="clients horizontal-slider" data-slides_count="6" data-scroll_amount="6" data-slider-speed="300" data-slider-infinite="1" data-slider-dots="0" data-slider-arrows="1">
 											{{ content.field_skill_tags }}
 										</div>
@@ -32,10 +33,6 @@
 									<ul class="list">
 										<li>
 											<span class="bold main-color">Published:</span> {{ date }}
-										</li>
-										<li>
-											<span class="bold main-color">Project Type:</span>
-											{{ content.field_project_type }}
 										</li>
 									</ul>
 									{% if content.field_git %}

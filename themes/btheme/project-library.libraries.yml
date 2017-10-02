@@ -7,3 +7,5 @@ project:
       style/btheme_css/assets.css: {}
       style/btheme_css/dark.css: {}
       style/btheme_css/skins/default.css: {}
+  js:
+    js/assets.min.js:{}
