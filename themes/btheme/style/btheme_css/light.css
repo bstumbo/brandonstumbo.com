@@ -131,6 +131,7 @@ a,.top-nav li li a,.top-nav .mega-menu > ul > li h4,.mini-cart-total,.page-title
 .footer-light .footer-middle h3,footer .divider i,.icon-box.gry-border-2:hover .block-icon i,.dark-text,.btn-grey,.btn-white,.pricing-tbl .price-lg,.fa-hover,.inner-menu ul ul li a,.top-bar ul ul li a,.icons-style-2 .heading,
 .filter-by.style-2 ul li a:hover,.filter-by.style-3 ul li a:hover,.main-bg .btn-white:not(.btn-outlined),.main-bg .btn-white:not(.btn-outlined):hover {
 	color:#444;
+  text-decoration: underline;
 }
 .darker-bg,.btn-default{
 	background-color:#444

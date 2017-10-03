@@ -1,0 +1,13 @@
+node_compare:
+  page_title: 'Node Compare Settings'
+  node_compare_items_limit: 3
+  node_compare_show_history: FALSE
+  node_compare_text_add: 'Add to compare'
+  node_compare_only_diff: 'Show differences only'
+  node_compare_empty_field: '&nbsp;'
+  node_compare_labels_header: '&nbsp;'
+node_compare_block:
+  name: 'Compare Nodes'
+  node_compare_only_diff: 'Show differences'
+
+  

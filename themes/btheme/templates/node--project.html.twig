@@ -14,7 +14,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="section">
+					<div class="">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-12">
@@ -39,11 +39,16 @@
 									<div>
 										<a class="btn btn-md btn-rounded btn-green" target="_blank" href="{{ content.field_git|field_value }}"><i class="fa fa-github"></i>View on GitHub</a>
 									</div>
-								    {% endif %}
+                  {% endif %}
+                  {% if content.field_project_link %}
+									<div style="margin-top: 10px;">
+										<a class="btn btn-md btn-rounded btn-green" target="_blank" href="{{ content.field_project_link|field_value }}"><i class="fa fa-check"></i>Project Link</a>
+									</div>
+								  {% endif %}
 								</div>
 								<div class="col-md-8">
 									<div class="heading">
-										<h3 class="uppercase head-6"><i class="fa fa-desktop"></i><span class="main-color">Case </span>Study</h3>
+										<h3 class="uppercase head-6"><i class="fa fa-desktop"></i><span class="main-color">Project </span>Details</h3>
 									</div>
 									{{ content.body }}
 								</div>
@@ -52,46 +57,6 @@
 					</div>
 			    </div>			    
 		    </div>			
-		<!-- Modal -->
-		<div class="modal fade" id="registermodal" tabindex="-1" role="dialog" aria-labelledby="registermodal">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title" id="gridSystemModalLabel">Create New Account</h4>
-		      </div>
-		      <div class="modal-body">
-		        <div class="padding-horizontal-20 padding-vertical-20">
-		            	<p>Hello our valued visitor, We present you the best web solutions and high quality graphic designs with a lot of features. just login to your account and enjoy ...</p>
-						<div class="login-controls">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="User name" />
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Email" />
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Confirm Email" />
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Password" />
-							</div>
-							<div class="form-group">
-								<input type="password" class="form-control" placeholder="Confirm Password" />
-							</div>
-							<div class="form-group floated-controls">
-								<span class="block checkbox-block"><input type="checkbox" class="checkbox" /> <span>I Agree !</span></span>
-							</div>
-						</div>
-		        </div>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn main-bg">Submit</button>
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-		      </div>
-		    </div><!-- /.modal-content -->
-		  </div><!-- /.modal-dialog -->
-		</div><!-- /.modal -->
 		    	
 		<!-- Back to top Link -->
 	    <a id="to-top"><span class="fa fa-chevron-up shape main-bg"></span></a>

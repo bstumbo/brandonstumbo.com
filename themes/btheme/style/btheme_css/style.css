@@ -77,8 +77,15 @@ p {
 dd, dt, dl, ol, ul, li {
 	margin:0;
 	padding:0;
-	list-style:none;
+	list-style: none;
 }
+
+.text-formatted > ul > li {
+  margin: 10px;
+  padding: 0px;
+  list-style: circle;
+}
+
 a {
 	text-decoration:none;
 }
