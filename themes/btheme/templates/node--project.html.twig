@@ -35,12 +35,12 @@
 											<span class="bold main-color">Published:</span> {{ date }}
 										</li>
 									</ul>
-									{% if content.field_git %}
+									{% if content.field_git|render %}
 									<div>
 										<a class="btn btn-md btn-rounded btn-green" target="_blank" href="{{ content.field_git|field_value }}"><i class="fa fa-github"></i>View on GitHub</a>
 									</div>
                   {% endif %}
-                  {% if content.field_project_link %}
+                  {% if content.field_project_link|render %}
 									<div style="margin-top: 10px;">
 										<a class="btn btn-md btn-rounded btn-green" target="_blank" href="{{ content.field_project_link|field_value }}"><i class="fa fa-check"></i>Project Link</a>
 									</div>
