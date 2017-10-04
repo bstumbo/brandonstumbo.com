@@ -11235,6 +11235,7 @@ html.border5px .full-heading:before{
 	}
 }
 
+
 /* v 1.1 styles */
 .section .video-wrap{
 	position: absolute;
@@ -11261,6 +11262,12 @@ html.square .pricing-tbl.style-4 .plan-head:before{
 }
 
 /*Custom btheme styles */
+
+@media (max-width: 375px) {
+  div.portfolio > .container {
+    background: rgba(0,0,0,.5);
+  }
+}
 
 .margin-auto {
 	margin: auto;
@@ -11296,3 +11303,5 @@ div.social-list:hover {
 .center {
 	text-align: center;
 }
+
+
